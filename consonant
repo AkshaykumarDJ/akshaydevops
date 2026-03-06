@@ -1,0 +1,8 @@
+!/bin/bash
+
+input_str="Hello World"
+
+# constants removed both upper and lower
+result=$(echo "$input_str" | tr -d 'akshayAKSHAY')
+
+echo "$result"
