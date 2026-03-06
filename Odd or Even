@@ -1,0 +1,7 @@
+numbers = [1, 2, 5, 6, 8, 9, 0, 29, 101, 109]
+
+for num in numbers:
+    if num % 2 == 0:
+        print(f"{num} is Even")
+    else:
+        print(f"{num} is Odd")
